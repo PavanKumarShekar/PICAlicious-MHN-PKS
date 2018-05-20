@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pavan\\Documents\\PICA MHN PKS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+            "outputFile": "C:\\Users\\pavan\\Documents\\PICALICIOUS PKS MHN\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pavan\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\bc2ee076c7711e31110768d95b181423\\res\\values-pt\\values-pt.xml",
