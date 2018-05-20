@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context=".SmartSearchActivity"
+                tools:showIn="@layout/vision_activity_basic"
+                android:background="@drawable/gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/image_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:shadowColor="#B0BEC5"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="5"
+                />
+
+            <Button
+                android:id="@+id/image_details_submit"
+                style="@android:style/TextAppearance.Material.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage"
+                android:text="Submit" />
+
+            <ImageView
+                android:id="@+id/main_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
